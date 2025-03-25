@@ -19,7 +19,7 @@ const ProductInfo = ({
         <p className="product-description">{productDescription}</p>
         <div className="pricing">
           <p className="price">
-            $
+            R$
             {isOnSale
               ? (productPrice * salePercent).toFixed(2)
               : productPrice.toFixed(2)}
@@ -28,7 +28,7 @@ const ProductInfo = ({
             <p className="percent">{salePercent.toFixed(2) * 100 + "%"}</p>
           )}
           {isOnSale && (
-            <p className="original-price">${productPrice.toFixed(2)}</p>
+            <p className="original-price">R${productPrice.toFixed(2)}</p>
           )}
         </div>
       </div>

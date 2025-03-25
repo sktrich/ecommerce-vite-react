@@ -2,11 +2,12 @@ import { productImages } from "../assets/imagedata"
 
 export const data = {
   productId: 1,
-  companyName: "Sneaker Company",
-  productName: "Fall Limited Edition Sneakers",
+  companyName: "Élan Atelier Company",
+  productName: "Vestido Edição Limitada Primavera/Verão 2026",
+  productCategory: "Vestidos",
   productDescription:
-    "These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.",
-  productPrice: 250,
+    "Este vestido florido é a escolha perfeita para dias quentes de verão. Leve e confortável, ele combina estilo e frescor para qualquer ocasião. Seu tecido fluido proporciona liberdade de movimento, enquanto a estampa vibrante traz um toque alegre e descontraído ao seu look.",
+  productPrice: 650,
   isOnSale: true,
   salePercent: 0.5,
   amount: 0,

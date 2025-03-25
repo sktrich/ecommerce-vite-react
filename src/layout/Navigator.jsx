@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Logo, Menu, Cart } from "../icons/index"
+import { Logo1,  Logo,Menu, Cart } from "../icons/index"
 import { avatar } from "../assets/imagedata"
 import FloatingCart from "../components/FloatingCart"
 import { useGlobalContext } from "../context/context"
@@ -17,7 +17,7 @@ const Navigator = () => {
             <Menu />
           </button>
           <div className="logo">
-            <Logo />
+            <Logo1 />
           </div>
           <ul className="nav-links">
             {navLinks.map((link, idx) => {

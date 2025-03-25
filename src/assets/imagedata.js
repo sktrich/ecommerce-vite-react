@@ -1,12 +1,13 @@
-import avatar from "./image-avatar.png"
-import prodThumb1 from "./image-product-1-thumbnail.jpg"
-import prodThumb2 from "./image-product-2-thumbnail.jpg"
-import prodThumb3 from "./image-product-3-thumbnail.jpg"
-import prodThumb4 from "./image-product-4-thumbnail.jpg"
-import prodImg1 from "./image-product-1.jpg"
-import prodImg2 from "./image-product-2.jpg"
-import prodImg3 from "./image-product-3.jpg"
-import prodImg4 from "./image-product-4.jpg"
+import avatar from "./image-avatar2.png"
+import prodThumb1 from "./IMG-20250320-WA0006-thumbnail.jpg"
+import prodThumb2 from "./IMG-20250320-WA0007-thumbnail.jpg"
+import prodThumb3 from "./IMG-20250320-WA0008-thumbnail.jpg"
+import prodThumb4 from "./IMG-20250320-WA0006-thumbnail.jpg"
+import prodImg1 from "./IMG-20250320-WA0006.jpg"
+import prodImg2 from "./IMG-20250320-WA0007.jpg"
+import prodImg3 from "./IMG-20250320-WA0008.jpg"
+import prodImg4 from "./IMG-20250320-WA0006.jpg"
+import Logo1 from "./logo1.png"
 
 const productImages = [
   { url: prodImg1, alt: "product slide 1" },
@@ -21,4 +22,4 @@ const productThumbnails = [
   { url: prodThumb3, alt: "product thumbnail slide 3" },
   { url: prodThumb4, alt: "product thumbnail slide 4" },
 ]
-export { avatar, productImages, productThumbnails }
+export { avatar, Logo1, productImages, productThumbnails }
